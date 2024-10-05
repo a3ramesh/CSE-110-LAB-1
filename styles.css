@@ -8,7 +8,10 @@ background-color: rgb(245,240,230)
         position: sticky;
         top: 0;
         a{
-            background-color: #4de922;
+            background-color: #182b49;
+        }
+        :hover{
+            color: white;
         }
 }
 
