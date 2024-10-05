@@ -7,6 +7,11 @@ background-color: rgb(245,240,230)
         background-color: red;
         position: sticky;
         top: 0;
+        ul{
+            href{
+                background-color: #182b49;
+            }
+        }
 }
 
 .nice{
