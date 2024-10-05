@@ -1,6 +1,12 @@
 .cool{
 background-color: rgb(245,240,230)
-margin = 0;
+
+}
+
+.great{
+    ul{
+        background-color: red;
+    }
 }
 
 .nice{
