@@ -64,12 +64,14 @@
            // Get the input values
            const title = document.getElementById("title").value;
            const content = document.getElementById("content").value;
+           const note_select = document.getElementById("note-select").value;
 
            // Display the result
            const resultDiv = document.getElementById("result");
            resultDiv.innerHTML = `<h3>Submitted Information</h3>
                                   <p>Title: ${title}</p>
-                                  <p>Content: ${content}</p>`;
+                                  <p>Content: ${content}</p>
+                                  <p>Label: ${note_select}`;
        });
    </script>
 </body>
