@@ -65,6 +65,10 @@
            const title = document.getElementById("title").value;
            const content = document.getElementById("content").value;
            const note_select = document.getElementById("note-select").value;
+           if(title.length()>50)
+           {
+                alert("This cannot exceed 50 characters")
+           }
 
            // Display the result
            const resultDiv = document.getElementById("result");
@@ -75,11 +79,6 @@
        });
        document.getElementById("title").addEventListener("focus", function () {
            this.style.backgroundColor = "#e0f7fa";  // Light blue background on focus
-           const title = document.getElementById("title");
-           if(title.length()>50)
-           {
-            alert("This cannot exceed 50 characters.");
-           }
        });
 
        document.getElementById("title").addEventListener("blur", function () {
