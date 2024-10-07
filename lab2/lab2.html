@@ -90,7 +90,7 @@
        });
 
        document.getElementById("title").addEventListener("onkeydown", function () {
-           if(this.value.length>50)
+           if(document.getElementById("title").value>50)
            {
             alert("This cannot exceed 50 characters");
            }
