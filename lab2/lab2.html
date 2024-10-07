@@ -24,7 +24,7 @@
        select{
             display: block;
            margin-bottom: 10px;
-           width: 160px
+           width: 180px
        }
 
        button {
@@ -63,12 +63,15 @@
 
            // Get the input values
            const title = document.getElementById("title").value;
+           const content = document.getElementById("content").value;
+           const label = document.getElementById("label").value
 
            // Display the result
            const resultDiv = document.getElementById("result");
            resultDiv.innerHTML = `<h3>Submitted Information</h3>
                                   <p>Title: ${title}</p>
-                                  <p>Content: ${content}</p>`;
+                                  <p>Content: ${content}</p>
+                                  <p>Label: ${label}`;
        });
    </script>
 </body>
