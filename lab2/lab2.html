@@ -41,6 +41,12 @@
            <button type="submit">Submit</button>
        </form>
 
+       <form id="userForm">
+            <label for="content">Content:</label>
+            <input type="text" id="content" name="content" required>
+            <button type="submit">Submit</button>
+       </form>
+
        <div class="result" id="result"></div>
    </div>
 
@@ -54,7 +60,8 @@
            // Display the result
            const resultDiv = document.getElementById("result");
            resultDiv.innerHTML = `<h3>Submitted Information</h3>
-                                  <p>Title: ${title}</p>`;
+                                  <p>Title: ${title}</p>
+                                  <p>Content: ${content}</p>`;
        });
    </script>
 </body>
